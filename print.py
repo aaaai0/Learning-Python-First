@@ -14,11 +14,10 @@ l()
 # else:
 print("You \nmessage \ntext")
 
-# \n makes a line break 
-
-# If you want print "\" you need write "\\"
 l()
 
+# \n makes a line break 
+# If you want print "\" you need write "\\"
 print("You \\nmessage \\ntext") # The \n command will not work under these conditions
 
 l()
