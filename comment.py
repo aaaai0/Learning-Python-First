@@ -1,3 +1,4 @@
+from readability import line as l
 # This comment, and it is invisible for IDE Python
 
 """
@@ -12,6 +13,7 @@ this too '''
 # The comments don't mean anything for IDE
 
 print("Not comment")
+
 print("""
 And this not comment too
 """)
