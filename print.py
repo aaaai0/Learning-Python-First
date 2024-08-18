@@ -1,27 +1,19 @@
-from readability import line as l
 # The command "print" write a message to the command line
 
-print("You message text")
+print("You message text", end="")
 
-l()
 # If you want to output several lines, then:
 print("You")
 print("message")
-print("text")
-
-l()
+print("text", end="")
 
 # else:
-print("You \nmessage \ntext")
-
-l()
+print("You \nmessage \ntext", end="")
 
 # \n makes a line break 
 # If you want print "\" you need write "\\"
-print("You \\nmessage \\ntext") # The \n command will not work under these conditions
+print("You \\nmessage \\ntext", end="") #  \n will not work under these conditions
 
-l()
+print("You \\message \\text", end="")
 
-print("You \\message \\text")
-
-l()
+# end="" = \n but it only works at the end of the line and you need to write print again
