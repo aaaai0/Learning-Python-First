@@ -1,4 +1,3 @@
-from readability import line as l
 # This comment, and it is invisible for IDE Python
 
 """
